@@ -9,13 +9,49 @@ body {
 /* Small devices (portrait tablets and large phones, 600px and up) */
 /* mobile first- Cv initialy styled in mobile view */
 
+html {
+  scroll-behavior: smooth;
+}
+
+.top {
+  color: #fff;
+  text-decoration: none;
+}
+
+.back-to-top {
+  grid-column-start: 2;
+    grid-column-end: 8;
+    grid-row-start: 11;
+    grid-row-end: 11;
+    opacity: 0.2;
+}
+
+.back-to-top:hover {
+  opacity: 1;
+}
+
+.top-button {
+  font-size: 20px;
+    padding: 15px;
+    background-color: firebrick;
+    font-weight: bolder;
+    font-family: 'Old Standard TT', serif;
+    position: fixed;
+    bottom: 0;
+    right: 8px;
+    z-index: 1000;
+}
+
+
+
 h1 {
+  text-align: center;
   font-family: 'Old Standard TT', serif;
   color: #fff;
   text-shadow: 5px 2px #5E2830;
   font-weight: bolder;
   padding: 30px;
-  font-size: 40px;
+  font-size: 35px;
 }
 
 h3 {
@@ -46,7 +82,7 @@ img {
   margin-top: -2%;
   padding: 50px;
   font-family: 'Old Standard TT', serif;
-  font-size: 40px;
+  font-size: 35px;
   color: #fff;
   text-shadow: 5px 2px #5E2830;
   font-weight: bolder;
@@ -97,14 +133,14 @@ img {
 li {
   color: #fff;
   font-family: 'Old Standard TT', serif;
-  font-size: 25px;
+  font-size: 20px;
   list-style-type: square;
 }
 
 #subject-text {
   color: #fff;
   font-family: 'Old Standard TT', serif;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 h4 {
@@ -132,7 +168,7 @@ h4 {
 #subject-text-2 {
   color: #fff;
   font-family: 'Old Standard TT', serif;
-  font-size: 25px;
+  font-size: 20px;
   text-align: center;
 }
 
@@ -145,7 +181,7 @@ h4 {
 .number {
   color: #fff;
   font-family: 'Old Standard TT', serif;
-  font-size: 22px;
+  font-size: 20px;
   margin-left: 18%;
   margin-top: -8%;
 }
@@ -158,7 +194,7 @@ h4 {
 .gmail {
   color: #fff;
   font-family: 'Old Standard TT', serif;
-  font-size: 22px;
+  font-size: 20px;
   margin-top: -10%;
   margin-left: 18%;
 }
